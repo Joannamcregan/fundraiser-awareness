@@ -17,7 +17,11 @@ module.exports = {
         'storm': '#00008c',
       },
       fontFamily: {
-        'poetsen': ["Poetsen One", ...defaultTheme.fontFamily.serif]    
+        'poetsen': ["Poetsen One", ...defaultTheme.fontFamily.serif],
+        'caveat': ["Caveat", ...defaultTheme.fontFamily.serif]
+      },
+      backgroundImage: {
+        'redGreen': "url('/img/redGreenBackground.jpg')",
       }
     },
   },
